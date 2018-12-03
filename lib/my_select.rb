@@ -1,3 +1,7 @@
 def my_select(collection)
- # your code here!
+ collection.each do |element| 
+   yield(element)
+ end 
 end
+
+ 
